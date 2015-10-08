@@ -1,0 +1,14 @@
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+## Directory-based project format:
+.idea
+
+# Dependency directory
+node_modules
