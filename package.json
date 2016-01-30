@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/vineetasharma/node-twitter-api/issues"
   },
-  "homepage": "https://github.com/vineetasharma/node-twitter-api#readme"
+  "homepage": "https://github.com/vineetasharma/node-twitter-api#readme",
+  "dependencies": {
+    "oauth": "^0.9.14"
+  }
 }
