@@ -1,15 +1,15 @@
-# twitter-api
+# twitter-api-stream
 
-twitter-api is designed to get data from  Twitter API in a very simplest way.
+twitter-api-stream is designed to get data from  Twitter API in a very simplest way.
 
 ##  How to install
-`npm install twitter-api --save`
+`npm install twitter-api-stream --save`
 
 ## How to use
 
 *example*
 ```
-var Twitter = require('twitter-api')
+var Twitter = require('twitter-api-stream')
     , twitterApi = new Twitter(YOUR_CONSUMER_KEY,YOUR_CONSUMER_SECRET,YOUR_CALLBACK_URL);
 
 twitterApi.getHomeLineTweets(userAccessToken,userRefreshToken, function (err, result) {

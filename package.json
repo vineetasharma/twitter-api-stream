@@ -1,5 +1,5 @@
 {
-  "name": "twitter-api",
+  "name": "twitter-api-stream",
   "version": "0.0.1",
   "description": "",
   "main": "twitter-api.js",
