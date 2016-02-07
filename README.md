@@ -1,15 +1,15 @@
-# node-twitter-api
+# twitter-api
 
-node-twitter-api is designed to get data from  Twitter API in very simplest way.
+twitter-api is designed to get data from  Twitter API in a very simplest way.
 
 ##  How to install
-`npm install node-twitter-api --save`
+`npm install twitter-api --save`
 
 ## How to use
 
 *example*
 ```
-var Twitter = require('node-twitter-api')
+var Twitter = require('twitter-api')
     , twitterApi = new Twitter(YOUR_CONSUMER_KEY,YOUR_CONSUMER_SECRET,YOUR_CALLBACK_URL);
 
 twitterApi.getHomeLineTweets(userAccessToken,userRefreshToken, function (err, result) {

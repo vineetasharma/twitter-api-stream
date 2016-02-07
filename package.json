@@ -1,8 +1,8 @@
 {
-  "name": "node-twitter-api",
+  "name": "twitter-api",
   "version": "0.0.1",
   "description": "",
-  "main": "node-twitter-api.js",
+  "main": "twitter-api.js",
   "directories": {
     "test": "tests"
   },
