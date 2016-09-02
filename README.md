@@ -38,3 +38,14 @@ twitterApi.getFollowersList(userAccessToken,userRefreshToken,postText, function 
     console.log("Result: ", JSON.parse(result));
   }
 });
+
+// Get the latest 5 tweets from the twitter user 'cschmitz81'
+twitterApi.getLatestTweets('cschmitz81', 5, userAccessToken, userRefreshToken, function(err, result){
+  if(err){
+    console.log(err)
+  }
+  if(result){
+    console.log("Result: " , JSON.parse(result));
+  }
+});
+
